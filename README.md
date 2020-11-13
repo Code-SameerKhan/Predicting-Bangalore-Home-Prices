@@ -1,10 +1,10 @@
 # Predicting Bangalore Home Prices
 # Summary
 
-1. Created a tool that predicts when an employee is going to resign in order to help perfect employee management and improve working space environment.
+1. Created a tool that calculates and predicts home prices based on various features.
 2. Based on the public release data available on Kaggle, the features are employed.
 3. Engineered features to calculate dependencies of the target variable on the independent variables.
-4. Optimized Logistic, Random Forest, Decision Tree and Naive Bayes classifier using GridSearchCV to reach best model.
+4. Optimized Linear, Lasso and  Decision Tree regressor using GridSearchCV to reach best model.
 5. Achieved an accuracy of 90.62% in correctly predicting the outcome.
 
 Some of the major factors include price, number of bedrooms , bathrooms, location, etc… By correlating the different features we can arrive on a decision based on the prediction. Since the output here is continuous therefore it is termed as a regression problem.
